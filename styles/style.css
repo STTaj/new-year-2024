@@ -92,10 +92,10 @@ main {
     height: 600px;
     font-family: Merriweather;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 
-.party-body{
-    
+.party-body {
     padding: 126px 126px 142px 126px;
 }
 
@@ -126,4 +126,33 @@ main {
     background: #F00;
     color: #FFF;
     border: none;
+}
+
+/* Place & Time */
+.palace-time {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    font-family: Inter;
+    margin-bottom: 120px;
+}
+.place-body{
+    padding: 100px 385px ;
+}
+
+.place-details {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.place-title{
+    color: #F00;
+}
+.place-button{
+    
+    margin-top: 48px;
 }
