@@ -55,6 +55,7 @@ main {
     text-align: center;
     font-family: Inter;
     margin-bottom: 80px;
+    width: 1320px;
 }
 
 .discount-num {
@@ -75,6 +76,7 @@ main {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    padding-bottom: 48px ;
 }
 
 .discount-img {
