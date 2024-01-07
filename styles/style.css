@@ -12,13 +12,12 @@
 
 /* Header Css */
 .header {
-    margin: 50px 140px 70px 140px;
+    margin: 50px 140px 80px 140px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
     border-radius: 16px;
     display: flex;
     justify-content: center;
@@ -34,9 +33,7 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .main-title {
@@ -44,12 +41,89 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
 }
 
 /* Main Section */
-main{
+main {
     margin: 70px 140px;
+}
+
+/* Discount section */
+.discount-section {
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 80px;
+}
+
+.discount-num {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 48px;
+}
+
+.discount-paragraph {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.discount-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-img {
+    width: 802.9px;
+    height: 500px;
+}
+
+/* Party Sections */
+.party-sections {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    font-family: Merriweather;
+    border-radius: 16px;
+}
+
+.party-body{
+    
+    padding: 126px 126px 142px 126px;
+}
+
+.party-tytle {
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-bottom: 24px;
+
+}
+
+.party-paragraph {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+.primary-btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    border: none;
 }
