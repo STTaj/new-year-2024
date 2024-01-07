@@ -48,3 +48,8 @@
     font-weight: 900;
     line-height: 95px;
 }
+
+/* Main Section */
+main{
+    margin: 70px 140px;
+}
