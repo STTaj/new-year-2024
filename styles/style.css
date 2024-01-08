@@ -441,3 +441,37 @@ main {
     font-weight: 600;
     text-transform: capitalize;
 }
+
+/* Footer Section */
+footer {
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+}
+
+/* address-contact */
+.address-contact {
+    color: #FFF;
+    justify-content: space-between;
+    display: flex;
+    padding: 120px 140px 50px 120px;
+}
+
+.address {
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact>ul {
+    list-style: none;
+}
+
+footer>hr {
+    width: 1360px;
+    margin: 0 100px 0 100px;
+}
