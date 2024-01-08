@@ -256,6 +256,10 @@ main {
     text-align: center;
 }
 
+.holiday-text {
+    padding-bottom: 69px;
+}
+
 .holiday-line {
     color: #070211;
     font-size: 24px;
@@ -270,9 +274,10 @@ main {
     padding-bottom: 28px;
 }
 
-.holiday-title> span {
+.holiday-title>span {
     color: #F00;
 }
+
 .holiday-pera {
     width: 720px;
     margin: 0 auto;
@@ -280,4 +285,38 @@ main {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+}
+
+.holiday-imgs {
+    justify-content: space-between;
+}
+
+.holiday-imgs {
+    width: 1320px;
+    flex-shrink: 0;
+    display: flex;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.holiday-img-1 {
+    width: 660px;
+    height: 662px;
+
+}
+
+.holiday-img-2 {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    position: absolute;
+    margin: 160px 0 0 790px;
+}
+
+.holiday-img-3 {
+    background-image: url(../images/Rectangle\ 1.png);
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
 }
