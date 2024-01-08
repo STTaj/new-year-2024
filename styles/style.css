@@ -426,6 +426,8 @@ main {
     height: 72px;
     flex-shrink: 0;
     border: none;
+    padding-left: 30px;
+
 }
 
 .subscribe-btn {
