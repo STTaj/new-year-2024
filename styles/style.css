@@ -475,3 +475,14 @@ footer>hr {
     width: 1360px;
     margin: 0 100px 0 100px;
 }
+
+.socal-media {
+    padding: 28px 600px;
+}
+
+.socal-link {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding-right: 24px;
+}
