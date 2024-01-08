@@ -486,3 +486,14 @@ footer>hr {
     flex-shrink: 0;
     padding-right: 24px;
 }
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 50px 140px 120px 120px;
+
+}
