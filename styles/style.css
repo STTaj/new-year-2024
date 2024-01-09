@@ -290,20 +290,19 @@ main {
 }
 
 .holiday-imgs {
-    justify-content: space-between;
-}
-
-.holiday-imgs {
     width: 1320px;
-    flex-shrink: 0;
-    display: flex;
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    display: flex;
+}
+
+.holiday-img{
+    position: relative;
 }
 
 .holiday-img-1 {
-    width: 675px;
+    width: 684px;
     height: 662px;
 
 }
@@ -311,17 +310,18 @@ main {
 .holiday-img-2 {
     width: 206.841px;
     height: 206.841px;
-    flex-shrink: 0;
-    position: absolute;
-    margin: 160px 0 0 790px;
+    top: 160px;
+    z-index: 1;
+    left: 115px;
+}
 }
 
+
 .holiday-img-3 {
-    background-image: url(../images/Rectangle\ 1.png);
     width: 429px;
     height: 433px;
-    flex-shrink: 0;
 }
+
 
 /* portfolio Sections */
 
